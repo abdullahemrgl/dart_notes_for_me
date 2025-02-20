@@ -10,41 +10,34 @@ import '/path/to/file.dart' as | show | hide | deffered myFunc;
 
 // main
 void main(List<String> args) {
+  // variable & const
+  var world = 'World!';
+  Object objWorld = world; // with type
+  const pi = 3.1434354354;
 
-    // variable & const
-    var world = 'World!';
-    Object objWorld = world; // with type
-    const pi = 3.1434354354;
+  // output
+  print('Hello, $world, ${args.length}');
 
-    // output
-    print('Hello, $world, ${args.length}');
-    
-    // input
+  // input
 
-    // data type
-    Map<dynamic> myMap = {1: 'One'};
-    /*
+  // data type
+  Map<int, dynamic> myMap = {1: 'One'};
+  /*
     num, double, int, bool, String, null, Object, dynamic, Never
     List, Set, Map, Record
     */
-        
-    
-    // operator
-    print(2 * 1 + 4 / 2 - 0);
-    /*
+
+  // operator
+  print(2 * 1 + 4 / 2 - 0);
+  /*
     ~/, %, ??, .., ?.., ..., ...?, ? : , is, is!, as
     */
 
-    // condation
-    
+  // condation
 
-    // loop
+  // loop
 
-    // class
+  // class
 
-    // file operation
-
+  // file operation
 }
-
-
-
